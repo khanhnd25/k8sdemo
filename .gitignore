@@ -1,0 +1,71 @@
+.env
+
+*.pyc
+*.pyo
+pytest/
+.pytest_cache
+.python-version
+.editorconfig
+.cache/
+.DS_Store
+
+/version.txt
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+build
+!/build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+build/testreports
+
+# Translations
+*.mo
+
+
+# Mr Developer
+venv/
+.mr.developer.cfg
+.project
+.pydevproject
+.venv
+.vscode/settings.json
+
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+docs/_build
+
+htmlcov
+!tox.ini
+
+# IDE
+.idea/
+
+coverage.xml
+node_modules
+.vscode/
+cache_directory/
+test.py
