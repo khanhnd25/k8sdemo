@@ -31,7 +31,6 @@ def login():
 
 @server.route("/upload", methods=["POST"])
 def upload():
-    # return {"hello" : "world"}
     print("validate")
     access, err = validate.token(request)
     print("validate successfull")

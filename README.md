@@ -60,3 +60,5 @@ curl -X POST http://mp3converter.com/login -u khanhnd.uet@gmail.com:Admin123
 --> output token
 
 curl -X POST -F 'file=@./videoplayback.mp4' -H 'Authorization: Bearer token' http://mp3converter.com/upload
+
+curl --output mp3_download.mp3 -X GET -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImtoYW5obmQudWV0QGdtYWlsLmNvbSIsImV4cCI6MTczMjI2Njg1OSwiaWF0IjoxNzMyMTgwNDU5LCJhZG1pbiI6dHJ1ZX0.aBdY-3saBxt9xbXpwiY66GduN_kcvKdw1EmCyRuoPw8' "http://mp3converter.com/download?fid=67402f872d8c091ff2eb6535"
